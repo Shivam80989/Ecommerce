@@ -1,0 +1,198 @@
+.pmain{
+    /* background-color: white;
+    margin-top: 20px; */
+    @apply bg-white mt-5
+
+    
+}
+.arrow{
+    @apply  text-4xl mx-9 mt-7 
+}
+.mainone{
+    /* background-color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  */
+    @apply bg-white h-[100px] w-full flex items-center justify-center
+    
+}
+.mlogo{
+    /* color: black;
+    /* padding: 30px 50px; */
+   /* display: flex;
+    font-size: 70px; */
+    @apply text-black flex  text-7xl
+}
+.secmain{
+    /* background-color: white;
+    padding: 40px 10px;
+    /* border-radius: 20px; */
+    /*border: 1px solid  #d3d3d3; 
+    border-radius: 10px;
+ 
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 520px; */
+    @apply bg-white rounded-[10px] md:w-[30%] w-[100%]  mt-[10px] md:ml-[520px]  md:border border-gray-300 px-10 py-[40px]
+
+}
+.heading{
+    /* color: black;
+    font-weight:400;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    /* font-size: larger; */
+    /*font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    @apply text-black font-normal font-sans flex items-center justify-center text-[35px]
+}
+.para{
+    /* color: black;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px; */
+    @apply text-black font-bold text-[45px] flex items-center justify-center ml-[1px]
+}
+.websitetwo{
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    @apply flex items-center justify-center flex flex-col
+
+
+}
+.g{
+    /* margin-top: 20px;
+    gap: 65px;
+    color :black;
+    border: 1px solid black;
+  border-radius: 24px;
+  /* background-color: black; */
+ /* display: flex;
+  width: 350px;
+  height: 50px;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  justify-content: center;
+  cursor: pointer; */
+  @apply mt-[20px] gap-[65px] text-black rounded-[24px] flex w-[350px] h-[50px] items-center border border-black text-lg font-bold justify-center cursor-pointer
+}
+.g:hover{
+        /* background: #e1e1e1; */
+        /* border-color:  #8ff77e; */
+        @apply border border-green-400
+    
+}
+.f:hover{
+    /* background: #e1e1e1; */
+    /* border-color:  #8ff77e; */
+    @apply border border-green-400
+
+
+}
+.f{
+    /* margin-top: 10px;
+    gap: 50px;
+    color :black;
+    border: 1px solid black;
+  border-radius: 24px;
+  /* background-color: black; */
+  /*display: flex;
+  width: 350px;
+  height: 50px;
+  align-items: center;
+  font-size: large;
+  font-weight: bold;
+  justify-content: center;
+  cursor: pointer; */
+  @apply mt-[20px] gap-[65px] text-black rounded-[24px] flex w-[350px] h-[50px] items-center border border-black text-lg font-bold justify-center cursor-pointer}
+
+
+
+
+.sign{
+ 
+    /* cursor: pointer; 
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    @apply cursor-pointer flex mt-[30px] flex flex-col items-center justify-center
+ 
+}
+.psign{
+    /* color: #808080;
+    font-size: medium;
+    font-weight: bold; */
+    @apply text-gray-500 text-base font-bold
+
+}
+.tsign{
+    /* color: blue;
+    font-weight: bold; */
+    @apply text-blue-900 font-bold
+    
+    
+}
+.tsign:hover{
+    /* text-decoration-line: underline;
+    color: chocolate; */
+    @apply underline text-[chocolate]
+
+
+}
+.foot{
+   
+/*     
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    @apply mt-[20px] flex flex-col items-center justify-center
+    
+}
+.spara{
+    /* color: blue; */
+    @apply text-blue-900
+}
+.spara:hover{
+    /* text-decoration-line: underline;
+    color: chocolate; */
+    @apply underline text-[chocolate]
+
+
+}
+.mfoot{
+    /* font-size: smaller;
+    /* display: flex; */
+    /*align-items: center;
+    justify-content: center;
+    color: #808080 ;
+    margin-left: 20px; */
+    @apply items-center justify-center  ml-[20px] text-sm text-gray-500 
+}
+
+/* @media only screen and (max-width: 600px) {
+    .heading {
+      font-size: 100px;
+      font-weight: bold;
+    }
+
+    .t{
+        margin-left: 0px;
+        display: flex;
+    }
+  } */
