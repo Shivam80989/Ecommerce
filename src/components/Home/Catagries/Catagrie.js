@@ -11,7 +11,7 @@ export const Catagrie = () => {
   return (
     <div className=' md:ml-[120px] ml-7 mr-7 md:mr[0px]     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     '>
-        <h1 className='font-semibold font-sans md:text-5xl text-3xl  mt-[50px] mb-[20px] text-gray-500'>Categries</h1>
+        <h1 className='font-semibold font-sans md:text-5xl text-3xl  mt-[50px] mb-[20px] text-gray-500'>Categries</h1>  
        <div className='flex gap-7 rounded-xl  flex-col md:flex-row'>
         <Card sx={{ maxWidth: 445 }}>
       <CardMedia
@@ -60,10 +60,10 @@ export const Catagrie = () => {
         </Typography>
       </CardContent>
    
-    </Card> 
+    </Card>   
     </div>
 
-    <div className='flex gap-7 rounded-xl mt-[20px] flex flex-col md:flex-row'>
+    <div className=' gap-7 rounded-xl mt-[20px] flex flex-col md:flex-row'>
         <Card sx={{ maxWidth: 445 }}>
       <CardMedia
         sx={{ height: 340,  cursor:'pointer',width:390}}

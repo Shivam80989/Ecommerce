@@ -9,7 +9,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Foot() {
   return (
     <div>
-      <div className="md:px-32 px-8 md:pt-10 pt-3 lg:mt-4 mt-2 bg-gray-200 flex flex-col md:flex-row  md:gap-20 gap-6">
+      <div className="lg:px-32 px-8 lg:pt-10 pt-3 lg:mt-4 mt-2 bg-gray-200 flex flex-col lg:flex-row  md:gap-20 gap-6 lg:text-base text-xs">
         <div>
           <FooterSection
             title="ONLINE SHOPPING"
@@ -57,9 +57,9 @@ export default function Foot() {
             title="EXPERIENCE MYNTRA APP ON MOBILE"
             items={[]} // Add any relevant items here
           />
-          <div className="text-xs font-bold md:py-1 ">
+          <div className="text-xs font-bold lg:py-1 ">
             KEEP IN TOUCH
-            <div className="md:py-4 py-2 flex gap-8 text-2xl text-gray-950 cursor-pointer">
+            <div className="lg:py-4 py-2 flex gap-8 text-2xl text-gray-950 cursor-pointer">
             <CiFacebook />
             <CiTwitter />
             <FaInstagram />
@@ -72,7 +72,7 @@ export default function Foot() {
           <div className="flex">
             <h4>100% ORIGINAL guarantee for all products at xyz.com</h4>
           </div>
-          <div className="flex md:py-7 ">
+          <div className="flex lg:py-7 ">
             <p>Return within 14 days of receiving your order</p>
           </div>
         </div>
@@ -93,13 +93,13 @@ export default function Foot() {
 // Footer section component
 function FooterSection({ title, items }) {
   return (
-    <div className="text-xs font-bold py-1 ">
+    <div className="lg:text-xs text-[8px] font-bold py-1 ">
       {title}
-      <ul className="text-slate-500 text-base py-3">
+      <ul className="text-slate-500 lg:text-base text-xs py-3">
         {items.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
-      </ul>
+      </ul> 
     </div>
   );
 }

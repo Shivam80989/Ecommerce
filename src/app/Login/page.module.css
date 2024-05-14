@@ -35,20 +35,20 @@
     width: 30%;
     margin-top: 10px;
     margin-left: 520px; */
-    @apply bg-white rounded-[10px] md:w-[30%] w-[100%]  mt-[10px] md:ml-[520px]  md:border border-gray-300 px-10 py-[40px]
+    @apply bg-white rounded-[10px] lg:w-[30%] w-[100%]  mt-[10px] lg:ml-[520px]  lg:border border-gray-300 px-10 py-[40px]
 
 }
 .heading{
     /* color: black;
     font-weight:400;
-    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
     
     /* font-size: larger; */
     /*font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center; */
-    @apply text-black font-normal font-sans flex items-center justify-center text-[35px]
+    @apply text-black font-normal font-sans flex items-center justify-center lg:text-[35px] text-[20px]
 }
 .para{
     /* color: black;
@@ -67,7 +67,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; */
-    @apply flex items-center justify-center flex flex-col
+    @apply  items-center justify-center flex flex-col
 
 
 }
@@ -86,7 +86,7 @@
   font-weight: bold;
   justify-content: center;
   cursor: pointer; */
-  @apply mt-[20px] gap-[65px] text-black rounded-[24px] flex w-[350px] h-[50px] items-center border border-black text-lg font-bold justify-center cursor-pointer
+  @apply mt-[20px] lg:gap-[65px] gap-[20px] text-black rounded-[24px] flex lg:w-[350px] w-[200px] lg:h-[50px]  h-[40px]  items-center border border-black lg:text-lg text-xs font-bold justify-center cursor-pointer
 }
 .g:hover{
         /* background: #e1e1e1; */
@@ -116,7 +116,7 @@
   font-weight: bold;
   justify-content: center;
   cursor: pointer; */
-  @apply mt-[20px] gap-[65px] text-black rounded-[24px] flex w-[350px] h-[50px] items-center border border-black text-lg font-bold justify-center cursor-pointer}
+  @apply mt-[20px] lg:gap-[65px]  gap-[20px]   text-black rounded-[24px] flex lg:w-[350px] w-[200px] lg:h-[50px] h-[40px] items-center border border-black lg:text-lg text-xs font-bold justify-center cursor-pointer}
 
 
 
@@ -129,20 +129,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; */
-    @apply cursor-pointer flex mt-[30px] flex flex-col items-center justify-center
+    @apply cursor-pointer flex mt-[30px] flex flex-col items-center justify-center lg:text-base text-xs
+    
  
 }
 .psign{
     /* color: #808080;
     font-size: medium;
     font-weight: bold; */
-    @apply text-gray-500 text-base font-bold
+    @apply text-gray-500  font-bold
 
 }
 .tsign{
     /* color: blue;
     font-weight: bold; */
-    @apply text-blue-900 font-bold
+    @apply text-blue-900 font-bold 
     
     
 }
@@ -161,7 +162,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center; */
-    @apply mt-[20px] flex flex-col items-center justify-center
+    @apply mt-[20px] flex flex-col items-center justify-center lg:text-sm text-xs
     
 }
 .spara{
@@ -182,7 +183,7 @@
     justify-content: center;
     color: #808080 ;
     margin-left: 20px; */
-    @apply items-center justify-center  ml-[20px] text-sm text-gray-500 
+    @apply items-center justify-center  ml-[20px]  text-gray-500 
 }
 
 /* @media only screen and (max-width: 600px) {
